@@ -25,11 +25,11 @@ def add_new_test_student(username, firstname, lastname, password):
         },
         {
             "Name": "custom:college_name",
-            "Value": ""
+            "Value": str([])
         },
         {
             "Name": "custom:institution_uuid",
-            "Value": ""
+            "Value": str([])
         },
         {
             "Name": "given_name",
@@ -48,6 +48,7 @@ def add_new_test_student(username, firstname, lastname, password):
             "Value":  ''
         }
     ]
+
 
     new_user = CLIENT.admin_create_user(
         Username=username,
