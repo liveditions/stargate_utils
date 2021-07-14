@@ -22,7 +22,7 @@ def add_new_test_student(username, firstname, lastname, password):
                             )
     # print(newuser.text)
     print(newuser.status_code)
-
+    #:print(newuser.text)
 
 
 
